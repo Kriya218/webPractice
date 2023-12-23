@@ -245,8 +245,7 @@ nav {
 	flex-wrap: wrap;
 	background-color: #B8AEA8;
 	width:100%;
-	margin-top: 40px 72px 35px;
-	padding: 60px;
+	padding: 40px 72px 35px;
 	justify-content: space-between;
 }
 .projects p1{
@@ -257,17 +256,20 @@ nav {
 	color: #eaeaea;
   }
 .projects div{
+	position: relative;
 	width: 416px;
-	margin: 12px;
+	margin: 15px;
+	align-items: center;
 	text-align: center;
 }
 .projects img{
-	width: 100%;
+	width: 416px;
 	height: 270px;
 }
 .projects p{
 	font-size: 20px;
 	margin: 10px;
+	align-items: center;
 }
 .projects a{
 	color: #eaeaea;
@@ -330,7 +332,7 @@ nav {
 
 /* RWD */
 
-@media screen and ( max-width: 768px ) {
+@media screen and ( max-width: 600px ) {
 	header ul{
 		display: none;
 	}
@@ -362,17 +364,44 @@ nav {
 	.projects{
 		flex-direction: column;
 		padding: 60px 0;
+		align-items: center;
 	}
 	.projects div{
 		align-items: center;
-		margin-bottom: 30px;
-		transform: translateX(30%);
+		width: 90%;
 	}
 	.others{
 		align-items: center; 
 		flex-direction: column;
-		padding: 60px 0;
-
+		padding: 60px 0;	
 	}
-	
+	header h1{
+		font-size: 14px;
+		align-items: center;
+		position: absolute;
+	}
+	.projects img{
+		width: 300px;
+		height: 195px;
+		align-items: center;
+	}
+	.container{
+		width: 300px;
+		height: 195px;
+	}
+	.container img{
+		width: 300px;
+		height: 195px;
+		align-items: center;
+	}
+	.overlay{
+		position: absolute;
+		width: 300px;
+		height: 20px;
+		font-size: 14px;
+		line-height: 20px;
+		bottom: 0;
+		align-items:center ;
+		justify-content: center;
+	}
 }
