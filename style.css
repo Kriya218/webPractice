@@ -376,9 +376,10 @@ nav {
 		padding: 60px 0;	
 	}
 	header h1{
-		font-size: 14px;
+		font-size: 18px;
 		align-items: center;
 		position: absolute;
+		margin-left: 15%;
 	}
 	.projects img{
 		width: 300px;
