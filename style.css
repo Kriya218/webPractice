@@ -246,7 +246,7 @@ nav {
 	flex-wrap: wrap;
 	background-color: #B8AEA8;
 	width:100%;
-	padding: 40px 72px 35px;
+	padding: 40px 60px 35px;
 	justify-content: space-between;
 }
 .projects p1{
@@ -259,7 +259,7 @@ nav {
 .projects div{
 	position: relative;
 	width: 416px;
-	margin: 15px;
+	margin: 10px;
 	align-items: center;
 	text-align: center;
 }
@@ -284,8 +284,7 @@ nav {
 	flex-wrap: wrap;
 	background-color: #eaeaea;
 	width:100%;
-	margin-top: 40px 72px 35px;
-	padding: 60px;
+	padding:40px 60px 35px;
 	justify-content: space-between;
 }
 .others p{
@@ -299,7 +298,7 @@ nav {
 	position: relative;
 	width: 416px;
 	height: 270px;
-	margin: 15px;
+	margin: 10px;
 	align-items: center;
   }
 .container img{
